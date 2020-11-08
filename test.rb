@@ -20,8 +20,23 @@ class​ ​User
  # The computer will then display you are number of yeard old
  ​end
  ​# Returns a Date object for the user's next birthday
- ​def​ ​next_birthday
- ...
+
+ ​def​ ​next_birthday(day,month)
+puts 'What\'s your day of birth?'
+birth_day = gets.chomp.to_i
+
+puts 'What\'s your month of birth?'
+birth_month = gets.chomp.to_i
+# get the users date of birth
+
+current =DateTime.now-birthdate.to_i
+
+# minus the curret date with the birthdate
+
+print "You have #{number of days} to your birthday"
+
+# displays to the user how many days to birthday
+
  ​end
 end
 tests = [
