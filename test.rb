@@ -36,6 +36,7 @@ current =DateTime.now-birthdate.to_i
 print "You have #{number of days} to your birthday"
 
 # displays to the user how many days to birthday
+# I did not get a lot of time to work on this question as it is a bit rushed, I would have gone onto Stack Overflow to get more of an idea
 
  ​end
 end
